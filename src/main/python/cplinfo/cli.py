@@ -33,7 +33,7 @@ from fractions import Fraction
 import hashlib
 import datetime
 
-from labels import lookup_name
+from cplInfo.cplInfo import lookup_name
 
 LOGGER = logging.getLogger(__name__)
 

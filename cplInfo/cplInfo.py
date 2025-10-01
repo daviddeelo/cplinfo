@@ -8,7 +8,7 @@ import hashlib
 import datetime
 import io
 
-from labels import lookup_name
+from .labels import lookup_name
 
 LOGGER = logging.getLogger(__name__)
 

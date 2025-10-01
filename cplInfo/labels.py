@@ -23,8 +23,14 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import xml.etree.ElementTree as et
+import os
 
-LABELS_PATH = "registries/Labels.xml"
+# Get the directory of the current file (labels.py)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Get the parent directory (project root)
+ROOT_DIR = os.path.dirname(CURRENT_DIR)
+# Path to Labels.xml
+LABELS_PATH = os.path.join(ROOT_DIR, "registries", "Labels.xml")
 LABELS_NS = { "labels": "http://www.smpte-ra.org/schemas/400/2012" }
 
 UL_LIST = {
