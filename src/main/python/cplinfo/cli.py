@@ -25,9 +25,6 @@
 
 import xml.etree.ElementTree as et
 import argparse
-from dataclasses import dataclass
-from enum import Enum
-import uuid
 import re
 import logging
 import json
@@ -36,7 +33,7 @@ from fractions import Fraction
 import hashlib
 import datetime
 
-from .labels import lookup_name
+from labels import lookup_name
 
 LOGGER = logging.getLogger(__name__)
 

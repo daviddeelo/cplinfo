@@ -24,7 +24,7 @@
 
 import xml.etree.ElementTree as et
 
-LABELS_PATH = "src/main/resources/registries/Labels.xml"
+LABELS_PATH = "registries/Labels.xml"
 LABELS_NS = { "labels": "http://www.smpte-ra.org/schemas/400/2012" }
 
 UL_LIST = {
